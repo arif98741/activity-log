@@ -1,0 +1,8 @@
+.idea
+.vscode
+*.log
+*.iml
+*.zip
+vendor
+.phpintel
+composer.lock

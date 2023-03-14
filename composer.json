@@ -1,0 +1,22 @@
+{
+    "name": "xenon/activity-log",
+    "description": "A package for saving activity log of users on different inside system",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "psr/log": "^3.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Xenon\\ActivityLog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ariful Islam",
+            "email": "arif98741@gmail.com"
+        }
+    ],
+    "require": {}
+}
