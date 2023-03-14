@@ -26,7 +26,7 @@ class ActivityLogProvider extends ServiceProvider
     public function boot(): void
     {
         $this->publishes([
-            __DIR__ . '/activitylog.php' => config_path('activity-log.php'),
+            __DIR__ . '/config/activity-log.php' => config_path('activity-log.php'),
           //  __DIR__ . '/Stubs/SslCommerzController.stub' => app_path('../app/Http/Controllers/SslCommerzController.php'),
         ]);
     }
