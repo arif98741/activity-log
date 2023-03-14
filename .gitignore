@@ -4,5 +4,6 @@
 *.iml
 *.zip
 vendor
+test
 .phpintel
 composer.lock
